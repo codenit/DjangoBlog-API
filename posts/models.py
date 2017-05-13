@@ -28,6 +28,7 @@ class Post(models.Model):
 
 
     objects = PostManager()
+
     def __str__(self):
         return self.title
 
